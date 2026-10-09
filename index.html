@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ESERCITAZIONE</title>
+    <title>Progetto Settimanale</title>
     <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -211,12 +211,12 @@
 
                     <label for="nome">Nome Utente</label>
                     <br>
-                    <input type="text" placeholder="Il tuo nome" id="nome" name="nome" >
+                    <input type="text" placeholder="Il tuo nome" id="nome" name="nome" required>
                     <br><br>
 
                     <label for="email">Email Utente</label>
                     <br>
-                    <input type="email" placeholder="tu@esempio.it" id="email" name="email">
+                    <input type="email" placeholder="tu@esempio.it" id="email" name="email" required>
                     <br><br>
 
                     <label for="data">Data preferita per la risposta</label>
@@ -226,7 +226,7 @@
 
                     <label for="motivazione">Motivo del contatto</label>
                     <br>
-                    <select name="proposta di lavoro" id="motivazione" aria-placeholder="Motivo del contatto">
+                    <select name="proposta di lavoro" id="motivazione" aria-placeholder="Motivo del contatto" required>
                         <option value="select"></option>
                         <option value="Progetto">Progetto </option>
                         <option value="collaborazione"> Collaborazione</option>
@@ -239,11 +239,11 @@
                     <textarea name="Messaggio" id="Messaggio" rows="10" cols="40" placeholder="scrivi qui il tuo messaggio..."></textarea>
                     <br><br>
 
-                    <input type="checkbox" name="ricontatto" id="ricontatto">
+                    <input type="checkbox" name="ricontatto" id="ricontatto" required>
                     <label for="ricontatto" class="black">Accetto di essere ricontattato all'indirizzo indicato</label>
                     <br><br>
 
-                    <button type="submit"><i class="fa-solid fa-paper-plane"></i>INVIA</button>
+                    <button type="submit"><i class="fa-solid fa-paper-plane" ></i>INVIA</button>
                 </form>
         </div>
         </section>

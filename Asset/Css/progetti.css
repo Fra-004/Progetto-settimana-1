@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: 'Inter', Arial, sans-serif;
+    font-size: 16px;
+    color: #2b2b2b;
+    line-height: 1.7;
+    background-color: #f4f1ec;
+    margin: 0;
+    padding: 0;
+    max-width: 920px;
+}
+h1,h2,h3{
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+h2{
+    color: hsl(220, 60%, 25%);
+    text-align: left;
+    font-weight: bold;
+}
+h2::before{
+    content: '\2756';
+    color: hsl(45, 90%, 50%);
+     margin-right: 20px;
+}
+
+
+#site-header{
+    background-color: hsl(0, 0% , 100%);
+    background-image: url(image/sfondo-background-progetto1.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 310px;
+    border-bottom: 2px solid hsl(45, 90%, 60%);
+    text-shadow:  0 3px 10px rgba(0, 0, 0, 0.4);
+    padding-bottom: ;
+
+}
+#site-header h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 0;
+   padding-top: 50px;
+}
+#site-header a{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0;
+    padding: 10px;
+    margin-bottom: 100px;
+   border: 1px solid rgba(255, 255, 255, 0.3);;
+}
+
+header p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #f0e7c8;
+}
+
+
+
+
+
+.contenitore-1{
+    background-color: white;
+    border-color: 1px solid #e6e0d3;
+    border-radius: 10px;
+    padding: 30px 30px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    margin: 20px;
+    margin-top: -50px;
+}
+.contenitore{
+    background-color: white;
+    border-color: 1px solid #e6e0d3;
+    border-radius: 10px;
+    padding: 30px 30px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    margin: 20px;
+}
+
+.link-progetti{
+    color: hsl(220, 60%, 30%);
+}
+
+.link-progetti:hover{
+    color: hsl(220, 60%, 45%) ;
+    text-decoration: hsl(45, 90%, 50%);
+}
+
+i{
+    margin-right: 20px;
+}

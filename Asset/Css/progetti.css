@@ -38,7 +38,7 @@ h2::before{
     height: 310px;
     border-bottom: 2px solid hsl(45, 90%, 60%);
     text-shadow:  0 3px 10px rgba(0, 0, 0, 0.4);
-    padding-bottom: ;
+
 
 }
 #site-header h1{
@@ -97,4 +97,46 @@ header p{
 
 i{
     margin-right: 20px;
+}
+
+
+footer{
+    background-color: hsl(220, 40%, 15%);
+    text-align: center;
+    color: white;
+    
+ }
+ 
+#footer a{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.08);
+   
+    padding:  10px;
+    
+}
+#footer a:hover{
+    color: hsl(220, 60%, 20%);
+    background-color: hsl(45, 90%, 60%);
+}
+
+#footer ul{
+   
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    
+    
+}
+
+#footer ul li{
+    list-style-type: none;
+    display: inline;
+}
+#footer ul li:not(last-child){
+    margin-right: 15px;
+}
+#footer i{
+    margin: 0 auto;
+    font-size: 30px;
+    
 }

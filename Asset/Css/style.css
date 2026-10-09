@@ -256,12 +256,12 @@ caption{
 
 .link-progetti:hover{
     color: hsl(220, 60%, 45%) ;
-    text-decoration: hsl(45, 90%, 50%);
+    text-decoration-color: hsl(45, 90%, 50%);
 }
 
 .tutti-progetti{
     color: hsl(220, 60%, 30%);
-    text-decoration: hsl(45, 90%, 50%);
+    text-decoration-color: hsl(45, 90%, 50%);
 }
 .tutti-progetti:hover{
     color: hsl(220, 60%, 45%);
@@ -340,6 +340,7 @@ footer{
     background-color: hsl(220, 40%, 15%);
     text-align: center;
     color: white;
+
     
  }
 
@@ -351,7 +352,6 @@ footer{
 #footer a{
     font-weight: bold;
     color: rgba(255, 255, 255, 0.08);
-   
     padding:  10px;
     
 }
@@ -363,8 +363,8 @@ footer{
 #footer ul{
    
     display: inline-block;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-top: 15px;
     
 }
 

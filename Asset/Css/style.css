@@ -4,35 +4,42 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-     font-family: 'Inter', Arial, sans-serif;
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
     font-size: 16px;
     color: #2b2b2b;
     line-height: 1.7;
     background-color: #f4f1ec;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     max-width: 920px;
 }
-h1,h2,h3{
+
+h1,
+h2,
+h3 {
     font-family: 'Playfair Display', Georgia, serif;
 }
 
-h2,label{
+h2,
+label {
     color: hsl(220, 60%, 25%);
     text-align: left;
     font-weight: bold;
 }
-h3{
+
+h3 {
     color: hsl(220, 30%, 25%);
 }
-h4{
+
+h4 {
     color: black;
 
 }
 
-#site-header{
-    background-color: hsl(0, 0% , 100%);
+#site-header {
+    background-color: hsl(0, 0%, 100%);
     background-image: url(image/sfondo-background-progetto1.jpg);
     background-size: cover;
     background-position: center;
@@ -40,54 +47,51 @@ h4{
     margin: 0;
     height: 100%;
     border-bottom: 2px solid hsl(45, 90%, 60%);
-    text-shadow:  0 3px 10px rgba(0, 0, 0, 0.4);
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 
 }
 
-#site-header h1{
+#site-header h1 {
     font-size: 2rem;
     font-style: italic;
     font-weight: bold;
     color: white;
     margin-top: 0;
-   padding-top: 50px;
+    padding-top: 50px;
 }
 
-header p{
+header p {
     margin-top: 50px;
     color: #f0e7c8;
 }
 
-nav a{
+nav a {
     font-weight: bold;
     color: white;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    padding:  10px;
-    
+    padding: 10px;
+
 }
-nav a:hover{
+
+nav a:hover {
     color: black;
     background-color: hsl(45, 90%, 60%);
 }
 
-nav ul{
-   
+nav ul {
+
     display: inline-block;
     margin-bottom: 50px;
     margin-top: 50px;
-    
+
 }
 
-nav ul li{
+nav ul li {
     list-style-type: none;
     display: inline;
 }
 
-nav ul li:not(last-child){
-    margin-right: 15px;
-}
-
-.contenitore-1{
+.contenitore-1 {
     background-color: white;
     border-color: 1px solid #e6e0d3;
     border-radius: 10px;
@@ -97,7 +101,7 @@ nav ul li:not(last-child){
     margin-top: -50px;
 }
 
-.contenitore{
+.contenitore {
     background-color: white;
     border-color: 1px solid #e6e0d3;
     border-radius: 10px;
@@ -107,38 +111,42 @@ nav ul li:not(last-child){
 }
 
 
- .image img{
+.image img {
     display: inline;
     float: left;
     width: 100px;
     height: 100px;
     margin-right: 20px;
+    margin-top: 15px;
     border-radius: 50%;
     border: 5px solid hsl(45, 90%, 60%);
 }
 
-h2::before{
+h2::before {
     content: '\2756';
     color: hsl(45, 90%, 50%);
-     margin-right: 20px;
+    margin-right: 20px;
 }
 
-#chi-sono p:first-of-type{
+#chi-sono p:first-of-type {
     font-size: 1.2em;
 }
-#chi-sono .contenitore p:first-of-type::first-letter{
+
+#chi-sono .contenitore p:first-of-type::first-letter {
     font-size: 40px;
     font-weight: bolder;
     color: hsl(220, 60%, 30%);
     font-family: 'Playfair Display', Georgia, serif;
 }
+
 #competenze div table {
     width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
     font-size: 13px;
 }
-#competenze th  {
+
+#competenze th {
     background-color: #f7f3e8;
     color: #34466b;
     text-align: left;
@@ -147,59 +155,69 @@ h2::before{
 }
 
 
-#competenze td h4{
+#competenze td h4 {
     font-weight: bold;
     font-size: 15px;
     padding: 10px;
 }
 
-td p{
+td p {
     color: #a39b87;
     font-weight: bold;
     padding-right: 20px;
 }
 
-#esperienze td{
+#esperienze td {
     padding: 10px;
 }
-i{
+
+i {
     margin-right: 20px;
 }
-.autovalutazione{
+
+.autovalutazione {
     width: 100%;
     height: 6px;
-    background-color: #ece6d8 ;
+    background-color: #ece6d8;
     border-radius: 10px;
     overflow: hidden;
 }
 
-.liv40{
+.liv40 {
     height: 100%;
     background-color: hsl(45, 90%, 50%);
     border-radius: 10px;
-    width: 40%;
-}
-.liv50{
-    height: 100%;
-    background-color: hsl(45, 90%, 50%);
-    border-radius: 10px;
-    width: 50%;
+    /* width: 40%; */
+    --percentuale: 40%;
 }
 
-.liv70{
+.liv50 {
     height: 100%;
     background-color: hsl(45, 90%, 50%);
     border-radius: 10px;
-    width: 70%;
+    /* width: 50%; */
+    --percentuale: 50%;
+}
+
+.liv70 {
+    height: 100%;
+    background-color: hsl(45, 90%, 50%);
+    border-radius: 10px;
+    /* width: 70%; */
+    --percentuale: 70%;
 
 }
-.liv80{
+
+.liv80 {
     height: 100%;
     background-color: hsl(45, 90%, 50%);
     border-radius: 10px;
-    width: 80%;
+    /* width: 80%; */
+    --percentuale: 80%;
 }
-td,th{
+
+td,
+th {
     border-bottom: 1px solid #ece6d8;
 }
 
@@ -209,63 +227,71 @@ td,th{
     table-layout: fixed;
     font-size: 13px;
 }
-#esperienze th  {
+
+#esperienze th {
     background-color: #f7f3e8;
     color: #34466b;
     text-align: left;
     padding: 10px;
     font-size: 15px;
+    overflow: hidden; 
+    overflow-wrap: normal;
+    word-break: normal;
 }
-caption{
+
+caption {
     text-align: left;
     color: hsl(220, 30%, 40%);
 }
-.destra{
+
+.destra {
     text-align: right;
     margin-top: 10px;
 
 }
 
-.card:nth-child(odd){
+.card:nth-child(odd) {
     background-color: white;
     border-radius: 10px;
     border-top: 3px solid #f7f3e8;
     border-right: 3px solid #f7f3e8;
     border-bottom: 3px solid #f7f3e8;
-    border-left: 3px solid  hsl(45, 90%, 50%);
+    border-left: 3px solid hsl(45, 90%, 50%);
     padding: 20px;
     background-color: #f7f3e8;
     /* margin-left: 10px;
     margin-right: 10px; */
 }
 
-.card:nth-child(even){
+.card:nth-child(even) {
     background-color: white;
     border-radius: 10px;
     border-top: 3px solid #f7f3e8;
     border-right: 3px solid #f7f3e8;
     border-bottom: 3px solid #f7f3e8;
-    border-left: 3px solid  hsl(220, 60%, 30%);
+    border-left: 3px solid hsl(220, 60%, 30%);
     padding: 20px;
     margin: 10px 0;
 }
 
-.link-progetti{
+.link-progetti {
     color: hsl(220, 60%, 30%);
 }
 
-.link-progetti:hover{
-    color: hsl(220, 60%, 45%) ;
+.link-progetti:hover {
+    color: hsl(220, 60%, 45%);
     text-decoration-color: hsl(45, 90%, 50%);
 }
 
-.tutti-progetti{
+.tutti-progetti {
     color: hsl(220, 60%, 30%);
     text-decoration-color: hsl(45, 90%, 50%);
 }
-.tutti-progetti:hover{
+
+.tutti-progetti:hover {
     color: hsl(220, 60%, 45%);
 }
+
 .new {
     background-color: red;
     color: white;
@@ -273,17 +299,22 @@ caption{
     border-radius: 3px;
     font-size: 10px;
     margin-left: 5px;
+
 }
-form{
+
+form {
     border-color: 1px solid #d6cfbf;
 }
 
-input:not(#ricontatto),textarea,select{
-    background-color: #fbf8f1; 
-    color: black; 
+input:not(#ricontatto),
+textarea,
+select {
+    background-color: #fbf8f1;
+    color: black;
     padding: 10px;
     width: 100%;
 }
+
 #contatti input:not([type="checkbox"]):focus,
 #contatti textarea:focus,
 #contatti select:focus {
@@ -292,37 +323,40 @@ input:not(#ricontatto),textarea,select{
 }
 
 
-#nome::placeholder{
-    font-size: 15px;
-    font-family: cursive;
-    color: #a39b87;
-    
-}
-#motivazione::placeholder{
+#nome::placeholder {
     font-size: 15px;
     font-family: cursive;
     color: #a39b87;
 
 }
-#email::placeholder{
+
+#motivazione::placeholder {
     font-size: 15px;
     font-family: cursive;
     color: #a39b87;
 
 }
-#data::placeholder{
+
+#email::placeholder {
     font-size: 15px;
+    font-family: cursive;
     color: #a39b87;
-    
+
 }
 
-textarea::placeholder{
+#data::placeholder {
+    font-size: 15px;
+    color: #a39b87;
+
+}
+
+textarea::placeholder {
     font-size: 15px;
     font-family: cursive;
     color: #a39b87;
 }
 
-button{
+button {
     background-color: hsl(220, 60%, 30%);
     color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -330,57 +364,159 @@ button{
     width: 12%;
     padding: 10px;
 }
-button:hover{
+
+button:hover {
     color: white;
     background-color: hsl(220, 60%, 45%);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
 }
- 
-footer{
+
+footer {
     background-color: hsl(220, 40%, 15%);
     text-align: center;
     color: white;
 
-    
- }
 
-.black{
+}
+
+.black {
     color: black;
     font-weight: lighter;
 }
 
-#footer a{
+#footer a {
     font-weight: bold;
     color: rgba(255, 255, 255, 0.08);
-    padding:  10px;
-    
+    padding: 10px;
+
 }
-#footer a:hover{
+
+#footer a:hover {
     color: hsl(220, 60%, 20%);
     background-color: hsl(45, 90%, 60%);
 }
 
-#footer ul{
-   
+#footer ul {
+
     display: inline-block;
     margin-bottom: 10px;
     margin-top: 15px;
-    
+
 }
 
-#footer ul li{
+#footer ul li {
     list-style-type: none;
     display: inline;
 }
-#footer ul li:not(last-child){
-    margin-right: 15px;
-}
-#footer i{
+
+#footer i {
     margin: 0 auto;
     font-size: 30px;
-    
+
 }
 
-label[for="ricontatto"]{
+label[for="ricontatto"] {
     color: #2b2b2b;
+}
+
+.acapo {
+    display: inline;
+}
+
+@media (max-width: 767px) {
+    body {
+        margin: 0;
+    }
+
+    .image img {
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+    form button {
+        width: 100px;
+    }
+
+    #site-header ul {
+        display: block;
+        text-align: center;
+    }
+
+    #site-header a {
+        display: block;
+        width: 100px;
+        margin: -5px auto;
+    }
+
+     .acapo {
+        display: inline-block;
+    }
+} 
+
+/* comparsa dall'alto del header */
+@keyframes comparsaHeader {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#site-header {
+    animation: comparsaHeader 1s ease;
+}
+
+/* comparsa dal basso delle card */
+@keyframes comparsaDalBasso {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.contenitore,
+.contenitore-1 {
+    animation: comparsaDalBasso 1s ease ;
+}
+
+
+.contenitore,
+.contenitore-1 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contenitore:hover,
+.contenitore-1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.20);
+}
+
+@keyframes riempimento{
+    from{
+        width:0;
+    }to{
+        width: var(--percentuale);
+    }
+}
+.liv40,
+.liv50,
+.liv70,
+.liv80 {
+    animation: riempimento 2s ease forwards;
 }
